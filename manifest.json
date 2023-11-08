@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Nitro Downloader",
+    "description": "This Chrome extension integrates Nitro Downloader with your Chrome browser for faster, more convenient file downloads.",
+    "version": "1.0",
+    "author": "Affan Ch.",
+    
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Nitro Downloader"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs"
+    ]
+}
