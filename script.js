@@ -2,7 +2,7 @@ function download() {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
         var currentURL = tabs[0].url;
 
-        var appURL = "nitro://video?url=" + encodeURIComponent(currentURL);
+        var appURL = "nitro-downloader://video?url=" + encodeURIComponent(currentURL);
 
         chrome.scripting.executeScript({
             target: { tabId: tabs[0].id },

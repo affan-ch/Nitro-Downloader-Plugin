@@ -13,5 +13,11 @@
         "scripting",
         "activeTab",
         "tabs"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://www.youtube.com/watch?*"],
+          "js": ["youtube.js"]
+        }
     ]
 }
