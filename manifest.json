@@ -6,7 +6,7 @@
     "author": "Affan Ch.",
     
     "action": {
-        "default_popup": "index.html",
+        "default_popup": "/popup/index.html",
         "default_title": "Nitro Downloader"
     },
     "permissions": [
@@ -17,7 +17,7 @@
     "content_scripts": [
         {
           "matches": ["https://www.youtube.com/watch?*"],
-          "js": ["youtube.js"]
+          "js": ["/agents/youtube-video.js"]
         }
     ]
 }

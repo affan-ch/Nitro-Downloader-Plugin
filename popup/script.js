@@ -20,6 +20,6 @@ function download() {
     });
 }
 
-var downloadButton = document.getElementById("DownloadButton");
+var directDownloadButton = document.getElementById("directDownloadButton");
 
-downloadButton.addEventListener("click", download);
+directDownloadButton.addEventListener("click", download);
